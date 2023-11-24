@@ -1,0 +1,47 @@
+User Discord Maintainer
+Ce script Python maintient la connexion d'un utilisateur avec un token Discord sur un canal vocal spécifiqueet d'envoyer des message automatiser dans un channel textuel specifique
+
+Configuration
+Token utilisateur : Remplacez la variable usertoken dans le script par votre propre token utilisateur.
+usertoken = "VOTRE_TOKEN_ICI"
+
+Identifiant du serveur : Remplacez la variable GUILD_ID par l'identifiant de votre serveur.
+GUILD_ID = "votre_identifiant_de_serveur"
+
+Identifiant du canal vocal : Remplacez la variable CHANNEL_ID par l'identifiant de votre canal vocal.
+CHANNEL_ID = "votre_identifiant_de_canal_vocal"
+
+partir ligne 120 et changer la variable channel_id par l'identifiant de votre channel textuel 
+channel_id = votre channel textuel
+
+partir ligne 122 puis remplacer "votre message ici" par votre message comme se si: "by fr41tr42"
+{"message": "votre message ici", "delay_seconds": le delai du message en seconde}
+{"message": "by fr41tr42", "delay_seconds": le delai du message en seconde},
+puis remplacer, le delai du message en seconde}, par l'intervale de l'envoie du message en seconde comme se si: 10}, 
+sa doit ressembler a sa: {"message": "by fr41tr42", "delay_seconds": 10},
+attention de ne pas mettre un temps beaucoup trop court sinon sa ne marchera pas 
+
+Installation
+Installez les dépendances nécessaires en exécutant la commande suivante dans votre terminal 
+(assurez-vous d'être dans le répertoire du script):
+pip install -r requirements.txt
+
+Exécutez le script Python :
+python main.py
+
+Utilisation
+Le script se connectera au canal vocal spécifié sur le serveur Discord et restera en ligne et envoyer des message avec un interal en seconde pour chaque message configurable.
+
+Contribuer
+Si vous souhaitez contribuer à ce projet, n'hésitez pas à ouvrir une Pull Request ou à signaler des problèmes dans la section des problèmes.
+
+Remarques
+Assurez-vous de respecter les règles de Discord et d'avoir les autorisations appropriées pour utiliser ce script. 
+Vous pouvez ouvrir main.py avec Visual Studio Code ou tout autre éditeur pour obtenir plus de détails.
+
+Licence
+Ce projet est sous licence MIT.
+
+code By fr41tr42
+discord serveur: https://discord.gg/ARa5tr362K
+My discord: fr41tr42
