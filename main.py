@@ -24,7 +24,7 @@ SELF_DEAF = True
 status = "online"
 
 
-# Ne pas modifier ici, mais en bas pour les messages de la ligne 120 à 125. by fr41tr42 
+# Ne pas modifier ici, mais en bas pour les messages de la ligne 120 à 125. by Furkan 
 headers = {"Authorization": usertoken, "Content-Type": "application/json"}
 
 validate = requests.get('https://discordapp.com/api/v9/users/@me', headers=headers)
