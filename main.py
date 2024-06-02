@@ -19,6 +19,7 @@ CHANNEL_ID = 11656175176521
 
 # Ne pas changer, sauf si vous voulez vous mettre en mode hors ligne, ou désactiver le mode muet et sourdine
 # (il est déjà configuré pour être en mode muet et sourdine et en ligne).
+
 SELF_MUTE = True
 SELF_DEAF = True
 status = "online"
